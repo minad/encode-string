@@ -28,24 +28,14 @@ module Data.String.Encode (
 ) where
 
 import Data.ByteString (ByteString)
-import Data.Eq (Eq)
-import Data.Foldable (Foldable)
-import Data.Function (id, (.))
-import Data.Functor (Functor(fmap))
-import Data.Maybe (Maybe)
-import Data.Ord (Ord)
-import Data.String (String)
+import Data.ByteString.Short (ShortByteString)
 import Data.Text (Text)
 import Data.Text.Encoding.Error (lenientDecode)
-import Data.Traversable (Traversable)
 import Data.Word (Word8)
 import GHC.Generics (Generic, Generic1)
-import Text.Show (Show)
-import Text.Read (Read)
-import Data.ByteString.Short (ShortByteString)
 import qualified Data.ByteString as B
-import qualified Data.ByteString.Short as S
 import qualified Data.ByteString.Lazy as BL
+import qualified Data.ByteString.Short as S
 import qualified Data.Text as T
 import qualified Data.Text.Encoding as TE
 import qualified Data.Text.Lazy as TL

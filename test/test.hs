@@ -4,16 +4,16 @@
 {-# LANGUAGE ScopedTypeVariables #-}
 module Main where
 
+import Data.ByteString (ByteString)
 import Data.ByteString.Short (ShortByteString)
 import Data.Proxy (Proxy(..))
 import Data.String.Encode
+import Data.Text (Text)
 import Data.Word (Word8)
 import Test.QuickCheck
 import Test.QuickCheck.Instances ()
-import Data.Text (Text)
-import Data.ByteString (ByteString)
-import qualified Data.Text.Lazy as TL
 import qualified Data.ByteString.Lazy as BL
+import qualified Data.Text.Lazy as TL
 
 main :: IO ()
 main = do
