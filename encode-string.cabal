@@ -1,6 +1,6 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.35.0.
+-- This file has been generated from package.yaml by hpack version 0.35.2.
 --
 -- see: https://github.com/sol/hpack
 
@@ -22,7 +22,7 @@ copyright:      2017 Daniel Mendler
 license:        MIT
 license-file:   LICENSE
 tested-with:
-    GHC == 7.10.3, GHC == 8.0.1, GHC == 9.4.4, GHC == 9.6.2
+    GHC == 7.10.3, GHC == 8.0.1, GHC == 9.4.4, GHC == 9.6.2, GHC == 9.8.1
 build-type:     Simple
 extra-source-files:
     README.md
